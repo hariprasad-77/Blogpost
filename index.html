@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Blog Website</h1>
+            </div>
+            <nav id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div id="menu-toggle" class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Blog Posts Section -->
+            <section class="blog-posts">
+                <article class="blog-post">
+                    <img src="a.png" alt="Web Design Trends">
+                    <h2>Web Design Trends in 2025</h2>
+                    <p>This blog post explores the latest web design trends that are shaping the future of websites.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="b.jpg" alt="JavaScript">
+                    <h2>How to Get Started with JavaScript</h2>
+                    <p>If you're new to JavaScript, this guide will help you get started with the basics of coding.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="d.webp" alt="CSS Grid Layout">
+                    <h2>Introduction to CSS Grid Layout</h2>
+                    <p>Learn how CSS Grid can simplify layout creation and make responsive designs easier to implement.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </section>
+
+            <!-- Sidebar Section -->
+            <aside class="sidebar">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">Understanding HTML and CSS</a></li>
+                    <li><a href="#">JavaScript for Beginners</a></li>
+                    <li><a href="#">Responsive Web Design Tips</a></li>
+                </ul>
+                <h3>Subscribe</h3>
+                <form id="subscribe-form">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p id="form-message"></p>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Creative Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
